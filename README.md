@@ -1,2 +1,13 @@
-# channelsiege.github.io
-Astro marketing site for channelsiege
+# Channelsiege
+
+Astro-only public marketing site for [channelsiege](https://github.com/channelsiege).
+
+## Development
+
+```sh
+npm ci --ignore-scripts
+npm test
+npm run build
+```
+
+The static site keeps public marketing separate from the user, organization, and Shared Auth surfaces.
